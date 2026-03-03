@@ -1,0 +1,10 @@
+#
+#Tue Mar 03 12:59:57 GMT 2026
+startup.max=21.3373415
+I/O.write=395.83
+I/O.count=10
+startup.average=10.35243252
+I/O.write.average=377.84
+startup.count=10
+I/O.read=1185.98
+I/O.read.average=1220.81

@@ -1,0 +1,502 @@
+Talend Open Studio for Data Integration
+Copyright (c) 2006-2021 Talend Inc. - www.talend.com
+All rights reserved.
+
+
+This program and the accompanying materials are made available
+under the terms of the Apache License, Version 2.0
+
+
+This product includes software developed at
+H2 Group
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+The Apache Software Foundation (http://jakarta.apache.org/)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+AddThis
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Spring IO (https://spring.io/projects/spring-framework)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+SLF4J.ORG
+Licensed under the MIT license.
+
+
+This product includes software developed at
+Bndtools (http://bndtools.org/)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+GlassFish Community (https://glassfish.java.net)
+Licensed under the CDDL + GPLv2 with classpath exception license.
+
+
+This product includes software developed at
+http://bndtools.org/
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Google (http://www.google.com/)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+BouncyCastle.org
+Licensed under the Bouncy Castle Licence license.
+
+
+This product includes software developed at
+The Eclipse Foundation (http://www.eclipse.org/)
+Licensed under the EPL-1.0 license.
+
+
+This product includes software developed at
+http://www.cowtowncoder.com/
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Seam Framework
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+OSGi Alliance ( http://www.osgi.org )
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+OPS4J - Open Participation Software for Java
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+IBM
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+woodstox.codehaus.org
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Dawid Kurzyniec (http://www.mathcs.emory.edu/~dawidk/)
+Licensed under the CC-PDDC license.
+
+
+This product includes software developed at
+FuseSource, Corp.
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+FasterXML
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+OSGi Alliance (http://www.osgi.org/)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+The Eclipse Foundation (http://www.eclipse.org/)
+Licensed under the EDL-1.0 license.
+
+
+This product includes software developed at
+LAMP/EPFL (http://lamp.epfl.ch/)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+xerial.org
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Oracle Corporation
+Licensed under the CDDL,GPL License license.
+
+
+This product includes software developed at
+Oracle Corporation (http://www.oracle.com/)
+Licensed under the EPL-2.0 license.
+
+
+This product includes software developed at
+Oracle (http://www.oracle.com)
+Licensed under the CDDL,GPL-2.0-only license.
+
+
+This product includes software developed at
+FasterXML
+Licensed under the JSON license.
+
+
+This product includes software developed at
+fasterxml.com (http://fasterxml.com)
+Licensed under the BSD-2-Clause license.
+
+
+This product includes software developed at
+Oracle
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Mozilla Foundation
+Licensed under the MPL-2.0 license.
+
+
+This product includes software developed at
+World Wide Web Consortium (http://www.w3.org/)
+Licensed under the W3C license.
+
+
+This product includes software developed at
+OW2 (http://www.ow2.org/)
+Licensed under the BSD-3-Clause license.
+
+
+This product includes software developed at
+Google
+Licensed under the BSD-3-Clause license.
+
+
+This product includes software developed at
+Oracle Corporation (http://www.oracle.com/)
+Licensed under the CDDL-1.0,GPL2 w/ CPE license.
+
+
+This product includes software developed at
+Oracle Corporation (http://www.oracle.com/)
+Licensed under the CDDL-1.0,GPL-1.0-only license.
+
+
+This product includes software developed at
+Cloudera
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Bndtools (https://bndtools.org/)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+The Eclipse Foundation (http://www.eclipse.org/)
+Licensed under the EDL 1.0,Apache-2.0 license.
+
+
+This product includes software developed at
+Intalio Inc.
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Shigeru Chiba, www.javassist.org
+Licensed under the Apache-2.0,LGPL-2.0-only,MPL-1.0 license.
+
+
+This product includes software developed at
+GlassFish Community (https://glassfish.dev.java.net)
+Licensed under the CDDL,GPL-2.0-only license.
+
+
+This product includes software developed at
+Oracle (http://www.oracle.com)
+Licensed under the CDDL + GPLv2 with classpath exception license.
+
+
+This product includes software developed at
+Codehaus (http://codehaus.org)
+Licensed under the BSD-3-Clause license.
+
+
+This product includes software developed at
+Sun Microsystems (http://www.sun.com)
+Licensed under the CDDL+GPL license.
+
+
+This product includes software developed at
+JNA Development Team
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Oracle Corporation (http://www.oracle.com/)
+Licensed under the CDDL,GPL-1.0-only license.
+
+
+This product includes software developed at
+Oracle Corporation (http://www.oracle.com/)
+Licensed under the CDDL,GPL-2.0-only license.
+
+
+This product includes software developed at
+Oracle
+Licensed under the EDL-1.0 license.
+
+
+This product includes software developed at
+fasterxml.com (http://fasterxml.com)
+Licensed under the EPL-1.0 license.
+
+
+This product includes software developed at
+FasterXML (http://fasterxml.com)
+Licensed under the JSON license.
+
+
+This product includes software developed at
+ANTLR
+Licensed under the BSD-STYLE license.
+
+
+This product includes software developed at
+Sun Microsystems, Inc.
+Licensed under the CDDL-1.0 license.
+
+
+This product includes software developed at
+GlassFish Community (https://javaee.github.io/glassfish)
+Licensed under the CDDL + GPLv2 with classpath exception license.
+
+
+This product includes software developed at
+Extreme! Lab, Indiana University (http://www.extreme.indiana.edu/)
+Licensed under the Indiana University Extreme! Lab Software License license.
+
+
+This product includes software developed at
+JUnit
+Licensed under the EPL-1.0 license.
+
+
+This product includes software developed at
+Google
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Oracle
+Licensed under the CDDL,GPL-1.0-only license.
+
+
+This product includes software developed at
+The HSQL Development Group
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+The Netty Project
+Licensed under the Apache License, Version 2.0 license.
+
+
+This product includes software developed at
+Joda.org (http://www.joda.org)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Terracotta Inc., a wholly-owned subsidiary of Software AG USA, Inc. (http://terracotta.org)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Jonathan Hedley (https://jhy.io/)
+Licensed under the MIT license.
+
+
+This product includes software developed at
+Codehaus (http://codehaus.org)
+Licensed under the BSD-2-Clause license.
+
+
+This product includes software developed at
+Oracle Corporation
+Licensed under the CDDL-1.0,GPL-2.0-only license.
+
+
+This product includes software developed at
+Connect2id Ltd. (https://connect2id.com/)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Chemouni Uriel (https://urielch.github.io/)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+JUnit (http://www.junit.org)
+Licensed under the EPL-1.0 license.
+
+
+This product includes software developed at
+Google (http://www.google.com)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+The Codehaus (http://codehaus.org/)
+Licensed under the Copyright 2002 (C) The Codehaus license.
+
+
+This product includes software developed at
+jcraft (http://www.jcraft.com/)
+Licensed under the BSD license.
+
+
+This product includes software developed at
+Codehaus (http://www.codehaus.org/)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+FasterXML (http://fasterxml.com)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Oracle Corporation (http://www.oracle.com/)
+Licensed under the CDDL-1.0,GPL-2.0-only license.
+
+
+This product includes software developed at
+IBM
+Licensed under the CPL-1.0 license.
+
+
+This product includes software developed at
+The Codehaus
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+jcraft (http://www.jcraft.com/jsch)
+Licensed under the BSD license.
+
+
+This product includes software developed at
+The Apache Software Foundation (http://jakarta.apache.org/)
+Licensed under the Apache-1.0 license.
+
+
+This product includes software developed at
+Connect2id Ltd. (http://connect2id.com)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+The Eclipse Foundation (http://www.eclipse.org/)
+Licensed under the EPL-2.0 license.
+
+
+This product includes software developed at
+SLF4J.ORG
+Licensed under the X11 license.
+
+
+This product includes software developed at
+ANTLR
+Licensed under the BSD-3-Clause license.
+
+
+This product includes software developed at
+The Eclipse Foundation (http://www.eclipse.org/)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+JTidy (http://jtidy.sf.net)
+Licensed under the Java HTML Tidy License license.
+
+
+This product includes software developed at
+The JASYPT team (http://www.jasypt.org)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Oracle (http://www.oracle.com/)
+Licensed under the CDDL + GPLv2 with classpath exception license.
+
+
+This product includes software developed at
+Sonatype Inc.
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+JUnit (http://www.junit.org)
+Licensed under the CPL-1.0 license.
+
+
+This product includes software developed at
+Oracle
+Licensed under the CDDL,GPL-2.0-only license.
+
+
+This product includes software developed at
+The Eclipse Foundation (http://www.eclipse.org/)
+Licensed under the EPL-2.0,GPL2 w/ CPE license.
+
+
+This product includes software developed at
+SLF4J.ORG
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+FuseSource, Corp.
+Licensed under the The Apache Software License, Version 2.0 license.
+
+
+This product includes software developed at
+Google, Inc.
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+France Telecom R&D
+Licensed under the BSD license.
+
+
+This product includes software developed at
+jeeeyul@gmail.com
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+asciidoctor.org
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+Square, Inc. (http://squareup.com)
+Licensed under the Apache-2.0 license.
+
+
+This product includes software developed at
+XStream
+Licensed under the BSD-3-Clause license.
+
+
+This product includes software developed at
+Connect2id Ltd. (https://connect2id.com)
+Licensed under the Apache-2.0 license.

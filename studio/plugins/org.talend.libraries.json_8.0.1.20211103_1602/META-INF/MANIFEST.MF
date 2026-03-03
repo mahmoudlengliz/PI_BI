@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.json;singleton:=true
+Export-Package: de.odysseus.staxon.base,de.odysseus.staxon.event,de.od
+ ysseus.staxon.json,de.odysseus.staxon.json.jaxb,de.odysseus.staxon.js
+ on.stream,de.odysseus.staxon.json.stream.impl,de.odysseus.staxon.json
+ .stream.util,de.odysseus.staxon.json.util,de.odysseus.staxon.util,de.
+ odysseus.staxon.xml.util,nu.xom,nu.xom.canonical,nu.xom.converters,nu
+ .xom.jaxen,nu.xom.jaxen.expr,nu.xom.jaxen.expr.iter,nu.xom.jaxen.func
+ tion,nu.xom.jaxen.function.ext,nu.xom.jaxen.function.xslt,nu.xom.jaxe
+ n.saxpath,nu.xom.jaxen.saxpath.base,nu.xom.jaxen.saxpath.helpers,nu.x
+ om.jaxen.util,nu.xom.tests,nu.xom.xinclude,nu.xom.xslt
+Bundle-Name: Json
+Bundle-Version: 8.0.1.20211103_1602
+Bundle-ClassPath: .,lib/staxon-1.2.jar,lib/xom-1.2.7.jar
+Built-By: 
+Bundle-ManifestVersion: 2
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

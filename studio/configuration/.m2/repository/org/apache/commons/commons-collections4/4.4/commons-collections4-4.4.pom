@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"><modelVersion>4.0.0</modelVersion>
+	<groupId>org.apache.commons</groupId>
+	<artifactId>commons-collections4</artifactId>
+	<version>4.4</version>
+	<packaging>jar</packaging>
+	<name>Talend Third party library : commons-collections4-4.4.jar</name>  
+	<description>The Apache Commons Collections package contains types that extend and augment the Java Collections Framework.</description>
+	<url>https://mvnrepository.com/artifact/org.apache.commons/commons-collections4/4.4</url>  
+	<licenses>
+		<license>
+			<name>Apache-2.0</name>
+			<url>http://www.talendforge.org/modules/licenses/APACHE_v2.txt</url>  
+		</license>
+	</licenses>
+</project>

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.jexcel;singleton:=true
+Built-By: 
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Export-Package: common,common.log,jxl,jxl.biff,jxl.biff.drawing,jxl.bi
+ ff.formula,jxl.demo,jxl.format,jxl.read.biff,jxl.write,jxl.write.biff
+Bundle-Name: Jexcel
+Bundle-Version: 8.0.1.20211103_1602
+Bundle-ClassPath: .,lib/jxl-wizard.jar
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

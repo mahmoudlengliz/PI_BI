@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<feature id="org.talend.tos.feature" label="Tos feature" version="8.0.1.20211103_1602" provider-name=".Talend SA.">
+  <description url="http://www.example.com/description">[Enter Feature Description here.]</description>
+  <copyright url="http://www.example.com/copyright">[Enter Copyright Description here.]</copyright>
+  <license>[Enter License Description here.]</license>
+  <requires>
+    <import feature="org.talend.help.feature" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.talend.tos.core.feature" version="0.0.0" match="greaterOrEqual"/>
+  </requires>
+  <plugin id="org.talend.designer.tutorials" download-size="2108" install-size="2243" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.designer.maven.repo.tcompv0" download-size="30412" install-size="30432" version="8.0.1.20211103_1602" unpack="true"/>
+  <plugin id="org.talend.designer.maven.repo.tck" download-size="4788" install-size="4791" version="8.0.1.20211103_1602" unpack="true"/>
+  <plugin id="org.talend.designer.maven.repo.tcksdk" download-size="15992" install-size="16036" version="8.0.1.20211103_1602" unpack="true"/>
+</feature>

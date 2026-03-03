@@ -1,0 +1,113 @@
+[{
+    "component_delegate":"tDBInput",
+    "component":"tJDBCInput",
+    "category":"DI",
+    "family":"",
+    "parameter":{
+        "mapping":{
+            "connection.userPassword.userId":"USERNAME",
+            "connection.userPassword.password":"PASSWORD",
+        }
+     },
+     "connector":{
+            "mapping":{
+                "MAIN":"FLOW"
+            }
+     }
+},
+{
+    "component_delegate":"tDBOutput",
+    "component" : "tJDBCOutput",
+    "category":"DI",
+    "family":"",
+    "parameter":{
+        "mapping":{
+            "connection.userPassword.userId":"USERNAME",
+            "connection.userPassword.password":"PASSWORD",
+        }
+     }
+},
+{
+    "component_delegate":"tDBClose",
+    "component":"tJDBCClose",
+    "category":"DI",
+    "family":""
+},
+{
+    "component_delegate":"tDBCommit",
+    "component":"tJDBCCommit",
+    "category":"DI",
+    "family":""
+},
+{
+    "component_delegate":"tDBConnection",
+    "component":"tJDBCConnection",
+    "category":"DI",
+    "family":"",
+    "parameter":{
+        "mapping":{
+            "connection.userPassword.userId":"USERNAME",
+            "connection.userPassword.password":"PASSWORD",
+        }
+     }
+},
+{
+    "component_delegate":"tDBRollback",
+    "component":"tJDBCRollback",
+    "category":"DI",
+    "family":""
+},
+{
+    "component_delegate":"tDBRow",
+    "component":"tJDBCRow",
+    "category":"DI",
+    "family":"",
+    "parameter":{
+        "mapping":{
+            "connection.userPassword.userId":"USERNAME",
+            "connection.userPassword.password":"PASSWORD",
+        }
+     },
+     "connector":{
+            "mapping":{
+                "MAIN":"FLOW"
+            }
+     }
+},
+{
+    "component_delegate":"tDBSP",
+    "component":"tJDBCSP",
+    "category":"DI",
+    "family":""
+},
+{
+    "component_delegate":"tDBOutputBulk",
+    "component":"tJDBCOutputBulk",
+    "category":"DI",
+    "family":""
+},
+{
+    "component_delegate":"tDBOutputBulkExec",
+    "component":"tJDBCOutputBulkExec",
+    "category":"DI",
+    "family":"",
+    "parameter":{
+        "mapping":{
+            "connection.userPassword.userId":"USERNAME",
+            "connection.userPassword.password":"PASSWORD",
+        }
+     }
+},
+{
+    "component_delegate":"tDBBulkExec",
+    "component":"tJDBCBulkExec",
+    "category":"DI",
+    "family":"",
+    "parameter":{
+        "mapping":{
+            "connection.userPassword.userId":"USERNAME",
+            "connection.userPassword.password":"PASSWORD",
+        }
+     }
+}
+]

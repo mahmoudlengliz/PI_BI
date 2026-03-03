@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.css;singleton:=true
+Built-By: 
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Export-Package: com.steadystate.css.parser,org.w3c.css.sac,org.w3c.css
+ .sac.helpers
+Bundle-Name: Css
+Bundle-Version: 8.0.1.20211103_1602
+Bundle-ClassPath: lib/cssparser-0.9.5.jar,lib/sac-1.3.jar,.
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

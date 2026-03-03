@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_QFaPcPqzEfC3B4HGHPNxww" id="_QFYaQPqzEfC3B4HGHPNxww" label="stagingenergie_transport" version="0.1" statusCode="" item="_QFaPcvqzEfC3B4HGHPNxww" displayName="stagingenergie_transport">
+    <author href="../../talend.project#_WnCooPi_EfCQ2MHjID0OKQ"/>
+    <additionalProperties xmi:id="_QFfH8PqzEfC3B4HGHPNxww" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_QFfH8fqzEfC3B4HGHPNxww" key="created_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_QFfH8vqzEfC3B4HGHPNxww" key="created_date" value="2026-01-26T13:33:43.407+0100"/>
+    <additionalProperties xmi:id="_QFfH8_qzEfC3B4HGHPNxww" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_QFfH9PqzEfC3B4HGHPNxww" key="modified_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_QFfH9fqzEfC3B4HGHPNxww" key="modified_date" value="2026-02-14T22:10:22.069+0100"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_QFaPcfqzEfC3B4HGHPNxww" path="STAGING_JOBS"/>
+  <TalendProperties:ProcessItem xmi:id="_QFaPcvqzEfC3B4HGHPNxww" property="_QFaPcPqzEfC3B4HGHPNxww" state="_QFaPcfqzEfC3B4HGHPNxww">
+    <process href="stagingenergie_transport_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

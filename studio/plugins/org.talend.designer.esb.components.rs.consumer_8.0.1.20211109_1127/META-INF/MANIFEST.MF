@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.designer.esb.components.rs.consumer;si
+ ngleton:=true
+Built-By: 
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.ui,org.eclipse.ui
+ .workbench,org.talend.core,org.talend.designer.codegen
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Bundle-Version: 8.0.1.20211109_1127
+Bundle-Localization: plugin
+Bundle-Activator: org.talend.designer.esb.components.rs.consumer.Activ
+ ator
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

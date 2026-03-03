@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.talend.tos.components.feature"
+      label="Components-feature"
+      version="8.0.1.20211104_0248">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import feature="org.talend.studio.components.tcompv0.jdbc.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.talend.studio.components.tcompv0.netsuite.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.talend.studio.components.tcompv0.googledrive.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.talend.studio.components.tcompv0.marketo.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.talend.studio.components.tcompv0.azurestorage.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.talend.studio.components.tcompv0.snowflake.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.talend.studio.components.tcompv0.jira.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.talend.studio.components.tcompv0.splunk.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.talend.studio.components.tcompv0.salesforce.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.talend.esb.tooling.ws.consumer.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="biz.aQute.bnd.annotation" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="javax.wsdl" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="joda-time" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.help.ui" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="jaxb-api" version="0.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.talend.components.api"
+         download-size="584"
+         install-size="753"
+         version="0.37.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.api.service.osgi"
+         download-size="24"
+         install-size="55"
+         version="0.37.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.azurestorage"
+         download-size="2605"
+         install-size="3092"
+         version="0.37.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.common"
+         download-size="156"
+         install-size="283"
+         version="0.37.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.common-oauth"
+         download-size="174"
+         install-size="226"
+         version="0.37.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.googledrive"
+         download-size="207"
+         install-size="326"
+         version="0.37.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.jdbc.definition"
+         download-size="14592"
+         install-size="16128"
+         version="0.37.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.jira"
+         download-size="2025"
+         install-size="2387"
+         version="0.37.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.marketo"
+         download-size="639"
+         install-size="854"
+         version="0.37.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.netsuite"
+         download-size="92"
+         install-size="257"
+         version="0.37.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.salesforce.definition"
+         download-size="3200"
+         install-size="3726"
+         version="0.37.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.snowflake.definition"
+         download-size="143"
+         install-size="248"
+         version="0.37.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.components.splunk"
+         download-size="1023"
+         install-size="1160"
+         version="0.37.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.abstractmap"
+         download-size="47"
+         install-size="91"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.alfrescooutput"
+         download-size="40"
+         install-size="87"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.components.exchange"
+         download-size="542"
+         install-size="912"
+         version="8.0.1.20211103_1602"/>
+
+   <plugin
+         id="org.talend.designer.components.localprovider"
+         download-size="11265"
+         install-size="32738"
+         version="8.0.1.20211104_0248"/>
+
+   <plugin
+         id="org.talend.designer.core.generic"
+         download-size="246"
+         install-size="577"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.dbmap"
+         download-size="598"
+         install-size="1294"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.filemultischemas"
+         download-size="146"
+         install-size="294"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.fileoutputxml"
+         download-size="117"
+         install-size="254"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.gefabstractmap"
+         download-size="238"
+         install-size="407"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.mapper"
+         download-size="714"
+         install-size="1557"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.rowgenerator"
+         download-size="149"
+         install-size="343"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.scd"
+         download-size="149"
+         install-size="294"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.unifiedcomponent"
+         download-size="120"
+         install-size="198"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.webservice"
+         download-size="955"
+         install-size="2205"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.designer.xmlmap"
+         download-size="579"
+         install-size="1257"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.expressionbuilder"
+         download-size="137"
+         install-size="277"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.repository.generic"
+         download-size="183"
+         install-size="421"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.sdk.component.studio-integration"
+         download-size="28024"
+         install-size="31182"
+         version="8.0.1.20211103_1602"
+         unpack="false"/>
+
+</feature>

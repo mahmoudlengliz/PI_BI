@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.hadoop.mapr.5.0.0;singleton:
+ =true
+Bundle-Name: mapr500
+Bundle-Version: 8.0.1.20211103_1602
+Built-By: 
+Require-Bundle: org.talend.core.runtime
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: .Talend SA.
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

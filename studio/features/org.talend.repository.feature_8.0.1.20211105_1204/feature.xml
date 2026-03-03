@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<feature id="org.talend.repository.feature" label="Repository Feature" version="8.0.1.20211105_1204" provider-name=".Talend SA."> 
+  <description url="http://www.talend.com/online/featuresdescription.html#repository-feature">Complete description about this feature at http://www.talend.com/online/featuresdescription.html#repository-feature</description>  
+  <copyright url="http://www.talend.com/online/copyright.txt">Copyright Talend 2006, 2007</copyright>  
+  <license>The licence are describe in branding feature</license>  
+  <url> 
+    <update label="CORE Talend update site for milestones" url="http://talendforge.org/core/updatesite/testing/"/>  
+    <discovery label="Talend web site" url="http://www.talend.com"/> 
+  </url>  
+  <requires>
+    <import plugin="biz.aQute.bndlib" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.eclipse.core.net" version="0.0.0" match="greaterOrEqual"/>
+  </requires>  
+  <plugin id="org.talend.designer.documentation" download-size="70" install-size="150" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.registration" download-size="233" install-size="383" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.repository" download-size="3305" install-size="6925" version="8.0.1.20211105_1204" unpack="false"/>
+  <plugin id="org.talend.repository.items.importexport" download-size="132" install-size="312" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.repository.items.importexport.ui" download-size="92" install-size="184" version="8.0.1.20211104_0243" unpack="false"/>
+  <plugin id="org.talend.repository.localprovider" download-size="71" install-size="169" version="8.0.1.20211104_1416" unpack="false"/>
+  <plugin id="org.talend.repository.metadata" download-size="1602" install-size="3875" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.repository.view" download-size="222" install-size="464" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.repository.view.di" download-size="75" install-size="187" version="8.0.1.20211103_1602" unpack="false"/>
+</feature>

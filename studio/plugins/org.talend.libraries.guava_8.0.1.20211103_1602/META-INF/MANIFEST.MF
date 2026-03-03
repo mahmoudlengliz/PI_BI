@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.guava
+Export-Package: com.google.common.annotations;version="30.0.0",com.goo
+ gle.common.base;version="30.0.0",com.google.common.cache;version="30.
+ 0.0",com.google.common.collect;version="30.0.0",com.google.common.esc
+ ape;version="30.0.0",com.google.common.eventbus;version="30.0.0",com.
+ google.common.hash;version="30.0.0",com.google.common.html;version="3
+ 0.0.0",com.google.common.io;version="30.0.0",com.google.common.math;v
+ ersion="30.0.0",com.google.common.net;version="30.0.0",com.google.com
+ mon.primitives;version="30.0.0",com.google.common.reflect;version="30
+ .0.0",com.google.common.util.concurrent;version="30.0.0",com.google.c
+ ommon.xml;version="30.0.0"
+Bundle-Name: Guava
+Bundle-Version: 8.0.1.20211103_1602
+Bundle-ClassPath: lib/guava-30.0-jre.jar
+Built-By: 
+Bundle-ManifestVersion: 2
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

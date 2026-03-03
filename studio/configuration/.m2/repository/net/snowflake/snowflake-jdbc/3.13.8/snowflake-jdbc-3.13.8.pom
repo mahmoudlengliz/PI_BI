@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>  
+  <groupId>net.snowflake</groupId>  
+  <artifactId>snowflake-jdbc</artifactId>  
+  <version>3.13.8</version>  
+  <packaging>jar</packaging>  
+  <name>Talend Third party library : snowflake-jdbc-3.13.8.jar</name>  
+  <description>Snowflake JDBC driver</description>  
+  <url>https://www.snowflake.net/</url>  
+  <licenses> 
+    <license> 
+      <name>Apache-2.0</name>  
+      <url>http://www.talendforge.org/modules/licenses/APACHE_v2.txt</url> 
+    </license> 
+  </licenses> 
+</project>

@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.jackson;singleton:=true
+Built-By: 
+Require-Bundle: org.apache.commons.lang,org.apache.commons.logging,org
+ .apache.commons.collections,org.apache.commons.commons-beanutils,jack
+ son-core-asl;bundle-version="1.9.13";visibility:=reexport,jackson-map
+ per-asl;bundle-version="1.9.13";visibility:=reexport,com.fasterxml.ja
+ ckson.core.jackson-annotations;bundle-version="2.9.0";visibility:=ree
+ xport,com.fasterxml.jackson.core.jackson-core;bundle-version="2.9.5";
+ visibility:=reexport,com.fasterxml.jackson.core.jackson-databind;bund
+ le-version="2.9.5";visibility:=reexport
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: .Talend SA.
+Export-Package: net.sf.ezmorph,net.sf.ezmorph.array,net.sf.ezmorph.bea
+ n,net.sf.ezmorph.object,net.sf.ezmorph.primitive,net.sf.ezmorph.test,
+ net.sf.json,net.sf.json.filters,net.sf.json.groovy,net.sf.json.proces
+ sors,net.sf.json.regexp,net.sf.json.test,net.sf.json.util,net.sf.json
+ .xml,org.codehaus.jackson,org.codehaus.jackson.impl,org.codehaus.jack
+ son.io,org.codehaus.jackson.map,org.codehaus.jackson.map.impl,org.cod
+ ehaus.jackson.sym,org.codehaus.jackson.util
+Bundle-Name: Jackson
+Bundle-Version: 8.0.1.20211103_1602
+Bundle-ClassPath: .,lib/ezmorph-1.0.6.jar,lib/jackson-0.9.2.jar,lib/js
+ on-lib-2.4-jdk15.jar
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

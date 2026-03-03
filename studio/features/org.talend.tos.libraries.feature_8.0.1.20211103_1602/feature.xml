@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<feature id="org.talend.tos.libraries.feature" label="Libraries_feature" version="8.0.1.20211103_1602"> 
+  <description url="http://www.example.com/description">[Enter Feature Description here.]</description>  
+  <copyright url="http://www.example.com/copyright">[Enter Copyright Description here.]</copyright>  
+  <license url="http://www.example.com/license">[Enter License Description here.]</license>  
+  <requires>
+    <import feature="org.eclipse.nebula.widgets.nattable.extension.glazedlists.feature" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.talend.libraries.jdbc.feature" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.commons.commons-beanutils" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.commons.httpclient" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.commons.logging" version="1.2.0" match="greaterOrEqual"/>
+    <import plugin="org.eclipse.nebula.widgets.nattable.core" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.eclipse.nebula.widgets.tablecombo" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.w3c.css.sac" version="0.0.0" match="greaterOrEqual"/>
+  </requires>  
+  <plugin id="org.talend.libraries.apache" download-size="8387" install-size="9353" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.apache.axis2" download-size="6150" install-size="6714" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.apache.chemistry" download-size="88" install-size="115" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.apache.common" download-size="2905" install-size="3261" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.apache.cxf" download-size="7454" install-size="8296" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.apache.http" download-size="1000" install-size="1101" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.apache.lucene" download-size="1914" install-size="2101" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.apache.xml" download-size="7966" install-size="9305" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.css" download-size="12" install-size="16" version="8.0.1.20211103_1602"/>
+  <plugin download-size="20" install-size="23" version="8.0.1.20211103_1602" unpack="false" id="org.talend.libraries.csv"/>
+  <plugin id="org.talend.libraries.custom" download-size="244" install-size="267" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.dom4j-jaxen" download-size="499" install-size="547" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.ehcache" download-size="759" install-size="838" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.excel" download-size="15513" install-size="18154" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.groovy" download-size="1667" install-size="1823" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.guava" download-size="2487" install-size="2792" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.hadoop.mapr.5.0.0" download-size="3" install-size="23" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.jackson" download-size="1076" install-size="1213" version="8.0.1.20211103_1602"/>
+  <plugin download-size="0" install-size="0" version="8.0.1.20211103_1602" unpack="false" id="org.talend.libraries.javacsv"/>
+  <plugin id="org.talend.libraries.jax" download-size="194" install-size="221" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.jboss" download-size="1" install-size="1" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.jexcel" download-size="1" install-size="1" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.jxplorer" download-size="2" install-size="2" version="8.0.1.20211103_1602"/>
+  <plugin download-size="1210" install-size="1365" version="8.0.1.20211103_1602" unpack="false" id="org.talend.libraries.mdm"/>
+  <plugin id="org.talend.libraries.mondrian" download-size="224" install-size="232" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.netsuite" download-size="4340" install-size="4930" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.palo" download-size="109" install-size="115" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.persist.lookup" download-size="254" install-size="282" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.libraries.salesforce" download-size="13" install-size="14" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.slf4j" download-size="120" install-size="137" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.xml" download-size="628" install-size="746" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.zmq" download-size="346" install-size="378" version="8.0.1.20211103_1602"/>
+</feature>

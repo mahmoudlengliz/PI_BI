@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.csv
+Export-Package: com.talend.csv,org.skife.csv
+Bundle-Name: Csv
+Bundle-Version: 8.0.1.20211103_1602
+Bundle-ClassPath: .,lib/csv-1.0.jar,lib/talendcsv-1.0.0.jar
+Built-By: 
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

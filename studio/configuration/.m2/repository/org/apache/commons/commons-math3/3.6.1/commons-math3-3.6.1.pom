@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
+  <modelVersion>4.0.0</modelVersion>  
+  <groupId>org.apache.commons</groupId>
+  <artifactId>commons-math3</artifactId>
+  <version>3.6.1</version>
+  <packaging>jar</packaging>  
+  <name>Talend Third party library : commons-math3-3.6.1.jar</name>  
+  <description>Talend Third party library : commons-math3-3.6.1.jar</description>  
+  <url>https://commons.apache.org/proper/commons-math/</url>
+  <licenses>
+    <license> 
+      <name>Apache-2.0</name>  
+      <url>http://www.talendforge.org/modules/licenses/APACHE_v2.txt</url>
+    </license> 
+  </licenses> 
+</project>

@@ -1,0 +1,71 @@
+Manifest-Version: 1.0
+Bundle-Description: SLF4J LOG4J-12 Binding
+Implementation-Title: slf4j-log4j12
+Automatic-Module-Name: org.slf4j.binding.log4j12
+Bundle-SymbolicName: org.slf4j.binding.log4j12
+Implementation-Version: 1.7.30
+Archiver-Version: Plexus Archiver
+Built-By: default
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: %bundleVendor
+Import-Package: org.slf4j;version="[1.7.30,1.8)",org.slf4j.event;versi
+ on="[1.7.30,1.8)",org.slf4j.helpers;version="[1.7.30,1.8)",org.slf4j.
+ spi;version="[1.7.30,1.8)",org.apache.log4j.helpers;resolution:=optio
+ nal;version="[1.2,2)",org.apache.log4j.spi;resolution:=optional;versi
+ on="[1.2,2)",org.apache.log4j;version="[1.2,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Fragment-Host: org.slf4j.api;bundle-version="[1.7.30,1.8)"
+Provide-Capability: org.slf4j.impl;org.slf4j.impl=log4j12;version:Vers
+ ion="1.7.30"
+Originally-Created-By: Apache Maven
+Export-Package: org.slf4j.impl;x-internal:=true;version="1.7.30";uses:
+ ="org.slf4j,org.slf4j.event,org.slf4j.helpers,org.slf4j.spi"
+Bundle-Name: %bundleName
+Bundle-Version: 1.7.30.v20201108-2042
+X-Compile-Target-JDK: 1.5
+X-Compile-Source-JDK: 1.5
+Created-By: Eclipse Bundle Recipe Maven Plug-in
+Build-Jdk: 1.8.0_212
+
+Name: org/slf4j/impl/VersionUtil.class
+SHA-256-Digest: lVgxXw9SS4HooaoCKblH5m9A9mNQLO0KUg/slVuTJKU=
+
+Name: about.html
+SHA-256-Digest: yf1Tld4UM2tberYuP3CdEmaGxneCXtBRUqDyx3shVgY=
+
+Name: about_files/SLF4J-LICENSE.txt
+SHA-256-Digest: YFfxVzBfb7YiGJZ96+aFfZ6Fr6fnd5eNOIUE9FurUgI=
+
+Name: org/slf4j/impl/Log4jLoggerAdapter.class
+SHA-256-Digest: irKz23s6oLJk0IlI8aepXNPOMIK1YDkt3OOfAcPaJr4=
+
+Name: org/slf4j/impl/Log4jMDCAdapter.class
+SHA-256-Digest: d3qKG/8oIVmTbMA3BocObnKEXrFunek7InidMW9sd7A=
+
+Name: org/slf4j/impl/StaticMarkerBinder.class
+SHA-256-Digest: ++IhNX+tQP6VtwoZeKdSau7wtPEp12x4XSNHObWCBZs=
+
+Name: org/slf4j/impl/Log4jLoggerFactory.class
+SHA-256-Digest: q4XmWAYmTMGWnqc74H/8z7PGSSxr/fLO9OLlamqqywA=
+
+Name: org/slf4j/impl/StaticLoggerBinder.class
+SHA-256-Digest: CQ9Yv/uL69fHcSpgI0IJ9+2BUlrxKh23G+r5G3R1JAg=
+
+Name: org/slf4j/impl/StaticMDCBinder.class
+SHA-256-Digest: iCUaYzZ7PUS7lp6Xualcu4vw5qTPzC70Sy/199JH/gA=
+
+Name: org/apache/log4j/MDCFriend.class
+SHA-256-Digest: DSbYszVzg7rNHTKnNbfWgdWXYzrdZ6ni1hYfiDir0tY=
+
+Name: META-INF/maven/org.eclipse.orbit.bundles/org.slf4j.binding.log4j
+ 12/pom.xml
+SHA-256-Digest: 66F1SsxfPFqrr5KiUg/5xzhpR+D9zrkpFg1UGRRoKCA=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: n1U4DvR3QKFLqugsWc/u0HoOsQh4hQHfvY3PZgSAU0c=
+
+Name: META-INF/maven/org.eclipse.orbit.bundles/org.slf4j.binding.log4j
+ 12/pom.properties
+SHA-256-Digest: moxib87+NrwNJhlg1se3Uq2t0R9garL4W+hKF0rfbHI=
+

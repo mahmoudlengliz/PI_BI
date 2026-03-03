@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_hxSesPrcEfC3B4HGHPNxww" id="_hxRQkPrcEfC3B4HGHPNxww" label="Stagingcapteurs_pollution" version="0.1" statusCode="" item="_hxSesvrcEfC3B4HGHPNxww" displayName="Stagingcapteurs_pollution">
+    <author href="../../talend.project#_WnCooPi_EfCQ2MHjID0OKQ"/>
+    <additionalProperties xmi:id="_hxViAPrcEfC3B4HGHPNxww" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_hxViAfrcEfC3B4HGHPNxww" key="created_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_hxViAvrcEfC3B4HGHPNxww" key="created_date" value="2026-01-26T18:29:11.456+0100"/>
+    <additionalProperties xmi:id="_hxViA_rcEfC3B4HGHPNxww" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_hxViBPrcEfC3B4HGHPNxww" key="modified_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_hxViBfrcEfC3B4HGHPNxww" key="modified_date" value="2026-02-14T22:10:21.978+0100"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_hxSesfrcEfC3B4HGHPNxww" path="STAGING_JOBS"/>
+  <TalendProperties:ProcessItem xmi:id="_hxSesvrcEfC3B4HGHPNxww" property="_hxSesPrcEfC3B4HGHPNxww" state="_hxSesfrcEfC3B4HGHPNxww">
+    <process href="Stagingcapteurs_pollution_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

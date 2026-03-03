@@ -1,0 +1,47 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: Xdv9SEXs5L3iJENt20R+y9wx1tIBl
+ Y1He8oW8yE2TAE=
+SHA-256-Digest-Manifest: 2WtqeBsBkSsFyEQLSlZ3njx7qzXCCVzrN/tjnNVRnqk=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: org/slf4j/impl/VersionUtil.class
+SHA-256-Digest: drhZa0fxjKpGZqe7sP0PLcJNnDu5CggSOCW/MFjqQko=
+
+Name: about.html
+SHA-256-Digest: Jv6LJEiHgu3GHGVPPGbTNjksdOIKUhfNMCVhfRF4AWs=
+
+Name: about_files/SLF4J-LICENSE.txt
+SHA-256-Digest: qMiE+i7SQeK+Mp+m78+OCgRNWWSzeTCRMsOz2yHX5hY=
+
+Name: org/slf4j/impl/Log4jLoggerAdapter.class
+SHA-256-Digest: pOUbFLbLZSkhOy7RMYhVHwzKr31p5zOE0bwbD92Gu9k=
+
+Name: org/slf4j/impl/Log4jMDCAdapter.class
+SHA-256-Digest: T9Ap33cJCvjW6a8O88vdp/uiwMiGYMtvp99mfVPAIOw=
+
+Name: org/slf4j/impl/StaticMarkerBinder.class
+SHA-256-Digest: vLs7F4awIgmANxP4UEsqsghHLgom8/kycrl3nYc4aOo=
+
+Name: org/slf4j/impl/Log4jLoggerFactory.class
+SHA-256-Digest: 4TT/1KiwI/m4S33AI5QI63VWXURIG+FMHFL8/butWcU=
+
+Name: org/slf4j/impl/StaticLoggerBinder.class
+SHA-256-Digest: 1s8oHs/Md4NotQPwdpl/4JpNjT+mMtdXPN5ceD0/gJg=
+
+Name: org/slf4j/impl/StaticMDCBinder.class
+SHA-256-Digest: gXPkCNR1bQDkM2Fky++VTI/VDD/7clTRq4+6FrfZM8E=
+
+Name: org/apache/log4j/MDCFriend.class
+SHA-256-Digest: h+m+UmtjrkmsLBtoEnAzBKxzlf56KJOnXCpFIzymlLU=
+
+Name: META-INF/maven/org.eclipse.orbit.bundles/org.slf4j.binding.log4j
+ 12/pom.xml
+SHA-256-Digest: NqrI0ZN8K/y2NhT/jQYUhi9Dsw1iYZVjvNZU5M6KZ9Y=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: 9e6y8zu6kFFgWA+OyMwQLRZbpyBXJOVWUXcLUgYSonA=
+
+Name: META-INF/maven/org.eclipse.orbit.bundles/org.slf4j.binding.log4j
+ 12/pom.properties
+SHA-256-Digest: OIwv9jOcCa9CEraHBCCyE2i9wll3nna2JdB4hegbRi8=
+

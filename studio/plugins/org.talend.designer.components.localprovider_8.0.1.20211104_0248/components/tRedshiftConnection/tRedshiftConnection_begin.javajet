@@ -1,0 +1,71 @@
+<%@ jet 
+imports="
+    org.talend.core.model.process.INode 
+    org.talend.core.model.process.ElementParameterParser 
+    org.talend.designer.codegen.config.CodeGeneratorArgument
+"
+%>
+<%@ include file="../templates/DB/HelpClass/HelpClass.javajet"%>
+<%
+	class ConnectionUtil extends DefaultConnectionUtil{
+	
+		public void createURL(INode node) {
+			super.createURL(node);
+
+            boolean useLogFile= "true".equals(ElementParameterParser.getValue(node, "__USE_LOG_FILE__"));
+			String logLevel= ElementParameterParser.getValue(node, "__LOG_LEVEL__");
+			String logFile= ElementParameterParser.getValue(node, "__LOG_FILE__");
+			String jdbcUrl = ElementParameterParser.getValue(node, "__JDBC_URL__");
+			
+		if(!logLevel.equals("0")){	
+			if (useLogFile) {
+%>
+				java.io.Writer output_<%=cid %> = new java.io.FileWriter(<%= logFile %>, true);
+				java.io.PrintWriter logWriter_<%=cid %> = new java.io.PrintWriter(output_<%=cid %>,true);
+    			globalMap.put("fileLogWriter_<%=cid %>", logWriter_<%=cid %>);
+    			java.sql.DriverManager.setLogWriter(logWriter_<%=cid %>);
+			<%
+			}
+%>
+
+		<%}%>
+            StringBuilder sbuilder_<%=cid%> = new StringBuilder();
+            sbuilder_<%=cid%>.append("jdbc:redshift:");
+<%
+            if ("SSO".equals(jdbcUrl)){
+%>
+                sbuilder_<%=cid%>.append("iam:");
+<%
+            }
+%>
+            sbuilder_<%=cid%>.append("//")
+                             .append(<%=dbhost%>)
+                             .append(":")
+                             .append(<%=dbport%>)
+                             .append("/")
+                             .append(<%=dbname%>)
+                             .append("?loglevel=")
+                             .append(<%=logLevel%>);
+<%
+            if(dbproperties != null && !"\"\"".equals(dbproperties) && !"".equals(dbproperties)) {
+%>
+                sbuilder_<%=cid%>.append("&").append(<%=dbproperties%>);
+<%
+            }
+%>
+            String url_<%=cid%> = sbuilder_<%=cid%>.toString();
+<%
+		}
+		
+		public String getDirverClassName(INode node){
+			return "com.amazon.redshift.jdbc42.Driver";
+		}
+		
+	}//end class
+	connUtil = new ConnectionUtil();
+%>
+<%//----------------------------component codes-----------------------------------------%>
+
+	<%@ include file="../templates/DB/AbstractDBConnection.javajet"%>
+	globalMap.put("schema_" + "<%=cid%>",<%=dbschema%>);
+

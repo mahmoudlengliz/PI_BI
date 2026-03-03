@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<feature id="org.talend.core.feature" label="Core Feature" version="8.0.1.20211109_1126" provider-name=".Talend SA."> 
+  <description url="http://www.talend.com/online/featuresdescription.html#core-feature">Complete description about this feature at http://www.talend.com/online/featuresdescription.html#core-feature</description>  
+  <copyright url="http://www.talend.com/online/copyright.txt">Copyright Talend 2006, 2007</copyright>  
+  <license>The licence are describe in branding feature</license>  
+  <url> 
+    <discovery label="Talend web site" url="http://www.talend.com"/> 
+  </url>  
+  <requires>
+	<import plugin="javax.wsdl" version="1.6.2" match="greaterOrEqual"/>
+    <import feature="org.eclipse.draw2d" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.eclipse.emf" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.eclipse.emf.common" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.eclipse.emf.ecore" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.eclipse.emf.ecore.edit" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.eclipse.emf.edit" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.eclipse.emf.transaction" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.eclipse.emf.validation" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.eclipse.emf.workspace" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.eclipse.gef" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.eclipse.gmf.runtime.notation" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.eclipse.jdt" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.talend.platform.feature" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.talend.tos.libraries.feature" version="0.0.0" match="greaterOrEqual"/>
+    <import feature="org.talend.utils.feature" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="javax.activation" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="javax.mail" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="javax.xml.bind" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="javax.xml.soap" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="javax.xml.ws" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="net.jeeeyul.eclipse.themes" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="net.jeeeyul.swtend" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.commons.collections" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.commons.discovery" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.commons.io" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.httpcomponents.httpclient" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.httpcomponents.httpcore" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.eclipse.compare" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.eclipse.compare.core" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.ops4j.pax.url.mvn" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.eclipse.collections" version="0.0.0" match="greaterOrEqual"/>
+  </requires>  
+  <plugin id="org.talend.core" download-size="2850" install-size="3546" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.core.repository" download-size="1186" install-size="2110" version="8.0.1.20211109_1126" unpack="false"/>
+  <plugin id="org.talend.core.runtime" download-size="4441" install-size="6908" version="8.0.1.20211104_1416" unpack="false"/>
+  <plugin id="org.talend.core.ui" download-size="5095" install-size="6620" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.cwm.mip" download-size="3683" install-size="10515" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.cwm.mip.edit" download-size="1315" install-size="2756" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.datatools.xml" download-size="56" install-size="107" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.designer.maven.aether" download-size="3346" install-size="3758" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.librariesmanager" download-size="655" install-size="1766" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.librariesmanager.ui" download-size="428" install-size="1034" version="8.0.1.20211104_0713" unpack="false"/>
+  <plugin id="org.talend.maven.resolver" download-size="3" install-size="6" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.metadata.managment" download-size="662" install-size="1195" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.metadata.managment.ui" download-size="535" install-size="1329" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.migrationTool" download-size="45" install-size="95" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.model" download-size="3651" install-size="8434" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.model.edit" download-size="535" install-size="1436" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.osgi.lib.loader" download-size="20" install-size="37" version="8.0.1.20211103_1602" unpack="false" fragment="true"/>
+  <plugin id="org.talend.resources" download-size="3720" install-size="3988" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.themes.core" download-size="38" install-size="88" version="8.0.1.20211103_1602" unpack="false"/>
+</feature>

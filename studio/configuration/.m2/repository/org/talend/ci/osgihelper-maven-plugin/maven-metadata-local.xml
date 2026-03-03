@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.talend.ci</groupId>
+  <artifactId>osgihelper-maven-plugin</artifactId>
+  <versioning>
+    <release>8.0.1</release>
+    <versions>
+      <version>8.0.1</version>
+    </versions>
+    <lastUpdated>20211109164809</lastUpdated>
+  </versioning>
+</metadata>

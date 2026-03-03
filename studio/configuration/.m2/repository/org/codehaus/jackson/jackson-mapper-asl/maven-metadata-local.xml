@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.codehaus.jackson</groupId>
+  <artifactId>jackson-mapper-asl</artifactId>
+  <versioning>
+    <release>1.9.15-TALEND</release>
+    <versions>
+      <version>1.9.15-TALEND</version>
+    </versions>
+    <lastUpdated>20211109164802</lastUpdated>
+  </versioning>
+</metadata>

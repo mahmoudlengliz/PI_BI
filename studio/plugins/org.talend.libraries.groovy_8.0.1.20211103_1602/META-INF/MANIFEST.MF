@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.groovy
+Bundle-Name: Groovy
+Bundle-Version: 8.0.1.20211103_1602
+Built-By: 
+Bundle-ManifestVersion: 2
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

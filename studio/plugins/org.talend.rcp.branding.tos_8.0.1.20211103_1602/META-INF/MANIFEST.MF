@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.rcp.branding.tos;singleton:=true
+Built-By: 
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.ui
+ .ide,org.eclipse.ui.intro,org.talend.rcp,org.talend.core,org.talend.c
+ ore.runtime
+Bundle-ManifestVersion: 2
+Bundle-Vendor: .Talend SA.
+Eclipse-LazyStart: true
+Bundle-Name: TOS branding plug-in
+Bundle-Version: 8.0.1.20211103_1602
+Bundle-Localization: plugin
+Bundle-Activator: org.talend.rcp.branding.tos.Activator
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

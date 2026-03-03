@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.nimbusds</groupId>
+	<artifactId>oauth2-oidc-sdk</artifactId>
+	<version>6.5</version>
+	<packaging>jar</packaging>
+	<name>Talend Third party library : oauth2-oidc-sdk-6.5.jar</name>
+	<description>OAuth 2.0 SDK with OpenID Connection extensions for developing client and server applications.</description>
+	<url>https://bitbucket.org/connect2id/oauth-2.0-sdk-with-openid-connect-extensions</url>
+	<licenses> 
+		<license> 
+			<name>Apache-2.0</name>
+			<url>https://www.talendforge.org/modules/licenses/APACHE_v2.txt</url>
+		</license>
+	</licenses>
+</project>

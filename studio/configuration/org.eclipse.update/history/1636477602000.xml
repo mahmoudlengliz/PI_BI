@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1636477602204" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.emf.mapping.ecore.editor" version="2.14.0.v20190528-0725" url="features/org.eclipse.emf.mapping.ecore.editor_2.14.0.v20190528-0725/">
+		</feature>
+		<feature id="org.talend.designer.feature" version="8.0.1.20211109_0825" url="features/org.talend.designer.feature_8.0.1.20211109_0825/">
+		</feature>
+		<feature id="org.talend.esb.tooling.ws.consumer.feature" version="8.0.1.20211109_1127" url="features/org.talend.esb.tooling.ws.consumer.feature_8.0.1.20211109_1127/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.24.0.v20210405-0628" url="features/org.eclipse.emf.ecore_2.24.0.v20210405-0628/">
+		</feature>
+		<feature id="org.talend.studio.components.tcompv0.googledrive.feature" version="8.0.1.20211103_1602" url="features/org.talend.studio.components.tcompv0.googledrive.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.eclipse.emf" version="2.26.0.v20210506-1425" url="features/org.eclipse.emf_2.26.0.v20210506-1425/">
+		</feature>
+		<feature id="org.talend.tos.feature" version="8.0.1.20211103_1602" url="features/org.talend.tos.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore.edit" version="2.14.0.v20190822-1451" url="features/org.eclipse.emf.ecore.edit_2.14.0.v20190822-1451/">
+		</feature>
+		<feature id="org.eclipse.emf.codegen.ui" version="2.23.0.v20210412-0833" url="features/org.eclipse.emf.codegen.ui_2.23.0.v20210412-0833/">
+		</feature>
+		<feature id="org.eclipse.draw2d" version="3.10.100.201606061308" url="features/org.eclipse.draw2d_3.10.100.201606061308/">
+		</feature>
+		<feature id="org.eclipse.e4.rcp" version="4.20.0.v20210602-2209" url="features/org.eclipse.e4.rcp_4.20.0.v20210602-2209/">
+		</feature>
+		<feature id="org.eclipse.emf.mapping.ecore" version="2.12.0.v20190323-1059" url="features/org.eclipse.emf.mapping.ecore_2.12.0.v20190323-1059/">
+		</feature>
+		<feature id="org.talend.studio.components.tcompv0.netsuite.feature" version="8.0.1.20211103_1602" url="features/org.talend.studio.components.tcompv0.netsuite.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore.editor" version="2.17.0.v20190528-0725" url="features/org.eclipse.emf.ecore.editor_2.17.0.v20190528-0725/">
+		</feature>
+		<feature id="org.talend.studio.components.tcompv0.jdbc.feature" version="8.0.1.20211103_1602" url="features/org.talend.studio.components.tcompv0.jdbc.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" version="1.4.1200.v20210507-0825" url="features/org.eclipse.equinox.p2.extras.feature_1.4.1200.v20210507-0825/">
+		</feature>
+		<feature id="org.talend.rcp.feature" version="8.0.1.20211105_1205" url="features/org.talend.rcp.feature_8.0.1.20211105_1205/">
+		</feature>
+		<feature id="org.eclipse.emf.codegen.ecore" version="2.26.0.v20210506-1425" url="features/org.eclipse.emf.codegen.ecore_2.26.0.v20210506-1425/">
+		</feature>
+		<feature id="org.talend.core.feature" version="8.0.1.20211109_1126" url="features/org.talend.core.feature_8.0.1.20211109_1126/">
+		</feature>
+		<feature id="org.eclipse.gmf.runtime.notation" version="1.13.0.202004160913" url="features/org.eclipse.gmf.runtime.notation_1.13.0.202004160913/">
+		</feature>
+		<feature id="org.talend.libraries.jdbc.feature" version="8.0.1.20211103_1602" url="features/org.talend.libraries.jdbc.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.talend.rcp.branding.tos.feature" version="8.0.1.20211105_1205" url="features/org.talend.rcp.branding.tos.feature_8.0.1.20211105_1205/" plugin-identifier="org.talend.rcp.branding.tos">
+		</feature>
+		<feature id="org.talend.updates.feature" version="8.0.1.20211103_1602" url="features/org.talend.updates.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.talend.platform.feature" version="8.0.1.20211103_1602" url="features/org.talend.platform.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.talend.studio.components.tcompv0.azurestorage.feature" version="8.0.1.20211103_1602" url="features/org.talend.studio.components.tcompv0.azurestorage.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.feature" version="3.14.1703.v20210409-2301" url="features/org.eclipse.ecf.filetransfer.feature_3.14.1703.v20210409-2301/">
+		</feature>
+		<feature id="org.talend.studio.components.tcompv0.salesforce.feature" version="8.0.1.20211103_1602" url="features/org.talend.studio.components.tcompv0.salesforce.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.talend.tos.components.feature" version="8.0.1.20211104_0248" url="features/org.talend.tos.components.feature_8.0.1.20211104_0248/">
+		</feature>
+		<feature id="org.eclipse.jdt" version="3.18.800.v20210611-1600" url="features/org.eclipse.jdt_3.18.800.v20210611-1600/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.discovery.feature" version="1.2.900.v20210418-1743" url="features/org.eclipse.equinox.p2.discovery.feature_1.2.900.v20210418-1743/">
+		</feature>
+		<feature id="org.talend.studio.components.tcompv0.snowflake.feature" version="8.0.1.20211103_1602" url="features/org.talend.studio.components.tcompv0.snowflake.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.eclipse.emf.databinding" version="1.7.0.v20190323-1059" url="features/org.eclipse.emf.databinding_1.7.0.v20190323-1059/">
+		</feature>
+		<feature id="org.talend.studio.components.tcompv0.marketo.feature" version="8.0.1.20211103_1602" url="features/org.talend.studio.components.tcompv0.marketo.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.eclipse.gef" version="3.11.0.201606061308" url="features/org.eclipse.gef_3.11.0.201606061308/">
+		</feature>
+		<feature id="org.eclipse.emf.codegen" version="2.22.0.v20210420-0623" url="features/org.eclipse.emf.codegen_2.22.0.v20210420-0623/">
+		</feature>
+		<feature id="org.talend.commons.feature" version="8.0.1.20211104_1103" url="features/org.talend.commons.feature_8.0.1.20211104_1103/">
+		</feature>
+		<feature id="org.talend.help.feature" version="8.0.1.20211103_1602" url="features/org.talend.help.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.eclipse.emf.databinding.edit" version="1.8.0.v20210113-0340" url="features/org.eclipse.emf.databinding.edit_1.8.0.v20210113-0340/">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.20.0.v20210611-1600" url="features/org.eclipse.rcp_4.20.0.v20210611-1600/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" version="1.6.1000.v20210507-0825" url="features/org.eclipse.equinox.p2.core.feature_1.6.1000.v20210507-0825/">
+		</feature>
+		<feature id="org.eclipse.emf.edit" version="2.16.0.v20190920-0401" url="features/org.eclipse.emf.edit_2.16.0.v20190920-0401/">
+		</feature>
+		<feature id="org.talend.studio.components.tcompv0.splunk.feature" version="8.0.1.20211103_1602" url="features/org.talend.studio.components.tcompv0.splunk.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.talend.tos.libraries.feature" version="8.0.1.20211103_1602" url="features/org.talend.tos.libraries.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.22.0.v20210319-0732" url="features/org.eclipse.emf.common_2.22.0.v20210319-0732/">
+		</feature>
+		<feature id="org.eclipse.nebula.widgets.nattable.extension.glazedlists.feature" version="2.0.1.202106070924" url="features/org.eclipse.nebula.widgets.nattable.extension.glazedlists.feature_2.0.1.202106070924/">
+		</feature>
+		<feature id="org.eclipse.emf.workspace" version="1.12.0.201805140824" url="features/org.eclipse.emf.workspace_1.12.0.201805140824/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" version="2.4.1200.v20210507-0825" url="features/org.eclipse.equinox.p2.user.ui_2.4.1200.v20210507-0825/">
+		</feature>
+		<feature id="org.eclipse.m2e.sse.ui.feature" version="1.18.0.20210603-1006" url="features/org.eclipse.m2e.sse.ui.feature_1.18.0.20210603-1006/">
+		</feature>
+		<feature id="org.talend.repository.feature" version="8.0.1.20211105_1204" url="features/org.talend.repository.feature_8.0.1.20211105_1204/">
+		</feature>
+		<feature id="org.talend.tos.core.feature" version="8.0.1.20211103_1602" url="features/org.talend.tos.core.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.eclipse.emf.transaction" version="1.12.0.201805140824" url="features/org.eclipse.emf.transaction_1.12.0.201805140824/">
+		</feature>
+		<feature id="org.talend.utils.feature" version="8.0.1.20211103_1602" url="features/org.talend.utils.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient45.feature" version="1.0.703.v20210512-0614" url="features/org.eclipse.ecf.filetransfer.httpclient45.feature_1.0.703.v20210512-0614/">
+		</feature>
+		<feature id="org.eclipse.emf.validation" version="1.12.2.202008210805" url="features/org.eclipse.emf.validation_1.12.2.202008210805/">
+		</feature>
+		<feature id="org.eclipse.help" version="2.3.600.v20210611-1600" url="features/org.eclipse.help_2.3.600.v20210611-1600/" plugin-identifier="org.eclipse.help.base">
+		</feature>
+		<feature id="org.talend.hadoop.distribution.feature" version="8.0.1.20211103_1602" url="features/org.talend.hadoop.distribution.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.eclipse.m2e.feature" version="1.18.0.20210603-1206" url="features/org.eclipse.m2e.feature_1.18.0.20210603-1206/" plugin-identifier="org.eclipse.m2e.core">
+		</feature>
+		<feature id="org.eclipse.emf.mapping" version="2.13.0.v20190323-1059" url="features/org.eclipse.emf.mapping_2.13.0.v20190323-1059/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" version="1.4.1200.v20210507-0825" url="features/org.eclipse.equinox.p2.rcp.feature_1.4.1200.v20210507-0825/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.ssl.feature" version="1.1.501.v20210409-2301" url="features/org.eclipse.ecf.core.ssl.feature_1.1.501.v20210409-2301/">
+		</feature>
+		<feature id="org.eclipse.emf.common.ui" version="2.17.0.v20190507-0402" url="features/org.eclipse.emf.common.ui_2.17.0.v20190507-0402/">
+		</feature>
+		<feature id="org.eclipse.emf.edit.ui" version="2.21.0.v20210506-1232" url="features/org.eclipse.emf.edit.ui_2.21.0.v20210506-1232/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.feature" version="1.5.702.v20210409-2301" url="features/org.eclipse.ecf.core.feature_1.5.702.v20210409-2301/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.ssl.feature" version="1.1.401.v20210409-2301" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.401.v20210409-2301/">
+		</feature>
+		<feature id="org.talend.studio.components.tcompv0.jira.feature" version="8.0.1.20211103_1602" url="features/org.talend.studio.components.tcompv0.jira.feature_8.0.1.20211103_1602/">
+		</feature>
+		<feature id="org.eclipse.emf.mapping.ui" version="2.13.0.v20190323-1059" url="features/org.eclipse.emf.mapping.ui_2.13.0.v20190323-1059/">
+		</feature>
+		<feature id="org.eclipse.emf.codegen.ecore.ui" version="2.26.0.v20210405-0904" url="features/org.eclipse.emf.codegen.ecore.ui_2.26.0.v20210405-0904/">
+		</feature>
+		<feature id="org.eclipse.emf.converter" version="2.16.0.v20210405-0904" url="features/org.eclipse.emf.converter_2.16.0.v20210405-0904/">
+		</feature>
+	</site>
+</config>

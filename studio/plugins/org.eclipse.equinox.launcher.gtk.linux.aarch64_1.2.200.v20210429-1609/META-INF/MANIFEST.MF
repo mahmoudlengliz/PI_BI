@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.0
+Build-Jdk-Spec: 11
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-Vendor: %providerName
+Bundle-SymbolicName: org.eclipse.equinox.launcher.gtk.linux.aarch64;sing
+ leton:=true
+Bundle-Version: 1.2.200.v20210429-1609
+Fragment-Host: org.eclipse.equinox.launcher;bundle-version="[1.5.0,1.7.0
+ )"
+Eclipse-PlatformFilter: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=aarc
+ h64))
+Bundle-Localization: launcher.gtk.linux.aarch64
+Eclipse-BundleShape: dir
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/equinox/
+ rt.equinox.framework.git;path="bundles/org.eclipse.equinox.launcher.gtk
+ .linux.aarch64";tag="I20210429-1800";commitId=62bb51bbb663e4f16fee4938f
+ 2d56c9c3c1d89ea
+
+Name: about.html
+SHA-256-Digest: 7mbS+ztMDS7S5/aYvJ7U49bPd/pcr0CtAylhJdsaxfA=
+
+Name: eclipse_11401.so
+SHA-256-Digest: Ml7GS+lRYQIJpMS5/RjQLWgwdeRiy7CX0GLwqqjDrh0=
+
+Name: launcher.gtk.linux.aarch64.properties
+SHA-256-Digest: owW+KiqsNHzu+uKwBqQXUWoz6VpuijxyZd500cEQYn8=
+

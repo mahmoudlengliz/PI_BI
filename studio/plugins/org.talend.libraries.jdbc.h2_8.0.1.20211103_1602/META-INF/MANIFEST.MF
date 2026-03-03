@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.jdbc.h2
+Export-Package: org.h2,org.h2.api;uses:="org.h2.command.ddl,org.h2.tab
+ le",org.h2.bnf;uses:="org.h2.server.web",org.h2.command; uses:="org.h
+ 2.value,  org.h2.expression,  org.h2.result,  org.h2.message,  org.h2
+ .engine",org.h2.command.ddl; uses:="org.h2.result,  org.h2.command,  
+ org.h2.expression,  org.h2.index,  org.h2.schema,  org.h2.table,  org
+ .h2.command.dml,  org.h2.engine",org.h2.command.dml; uses:="org.h2.st
+ ore,  org.h2.expression,  org.h2.command.ddl,  org.h2.schema,  org.h2
+ .table,  org.h2.engine,  org.h2.result,  org.h2.command,  org.h2.valu
+ e,  org.h2.util",org.h2.compress,org.h2.constant,org.h2.constraint; u
+ ses:="org.h2.expression,  org.h2.result,  org.h2.index,  org.h2.schem
+ a,  org.h2.table,  org.h2.engine",org.h2.engine; uses:="org.h2.store,
+   org.h2.expression,  org.h2.index,  org.h2.constraint,  org.h2.schem
+ a,  org.h2.table,  org.h2.command,  org.h2.result,  org.h2.value,  or
+ g.h2.util,  org.h2.jdbc,  org.h2.api,  org.h2.message",org.h2.express
+ ion; uses:="org.h2.command,  org.h2.value,  org.h2.result,  org.h2.sc
+ hema,  org.h2.table,  org.h2.command.dml,  org.h2.engine",org.h2.full
+ text; uses:="org.h2.util,  org.h2.tools,  org.h2.api,  org.apache.luc
+ ene.index",org.h2.index; uses:="org.h2.store,  org.h2.expression,  or
+ g.h2.schema,  org.h2.table,  org.h2.engine,  org.h2.result,  org.h2.v
+ alue,  org.h2.command.dml,  org.h2.message",org.h2.jdbc; uses:="org.h
+ 2.result,  org.h2.command,  org.h2.value,  org.h2.message,  org.h2.en
+ gine",org.h2.jdbcx; uses:="javax.naming,  javax.sql,  javax.transacti
+ on.xa,  org.h2.jdbc,  org.h2.message,  javax.naming.spi",org.h2.messa
+ ge,org.h2.result; uses:="org.h2.store,  org.h2.value,  org.h2.express
+ ion,  org.h2.jdbc,  org.h2.engine",org.h2.schema; uses:="org.h2.resul
+ t,  org.h2.command.ddl,  org.h2.expression,  org.h2.value,  org.h2.in
+ dex,  org.h2.constraint,  org.h2.table,  org.h2.engine",org.h2.securi
+ ty;uses:="org.h2.store",org.h2.server,org.h2.server.pg;uses:="org.h2.
+ server",org.h2.server.web; uses:="javax.servlet,  org.h2.bnf,  org.h2
+ .server,  javax.servlet.http",org.h2.store; uses:="org.h2.result,  or
+ g.h2.value,  org.h2.util,  org.h2.index,  org.h2.message,  org.h2.eng
+ ine",org.h2.store.fs,org.h2.table; uses:="org.h2.expression,  org.h2.
+ command.ddl,  org.h2.index,  org.h2.constraint,  org.h2.schema,  org.
+ h2.engine,  org.h2.value,  org.h2.result,  org.h2.command,  org.h2.co
+ mmand.dml,  org.h2.message",org.h2.tools; uses:="org.h2.store,  org.h
+ 2.compress,  org.h2.server,  org.h2.value,  org.h2.util,  org.h2.api"
+ ,org.h2.util; uses:="org.h2.value,  javax.sql,  org.osgi.framework,  
+ org.h2.message",org.h2.value; uses:="org.h2.store,  org.h2.jdbc,  org
+ .h2.message,  org.h2.engine"
+Bundle-Name: H2
+Bundle-Version: 8.0.1.20211103_1602
+Bundle-ClassPath: .,lib/h2-1.4.198.jar
+Built-By: 
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.rcp;singleton:=true
+Built-By: 
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.ui.intro,org.tale
+ nd.core,org.talend.core.ui,org.talend.repository,org.talend.designer.
+ runprocess,org.talend.designer.codegen,org.eclipse.ui.ide.application
+ ,org.talend.designer.core,org.talend.commons.ui,org.eclipse.ui.forms,
+ org.eclipse.core.expressions,org.talend.core.repository,org.eclipse.u
+ i.ide,org.talend.model,org.talend.metadata.managment,org.talend.regis
+ tration,org.eclipse.jface,org.eclipse.ui.workbench,org.apache.commons
+ .lang,org.talend.libraries.apache,org.eclipse.ui.cheatsheets,org.ecli
+ pse.ui,org.eclipse.e4.core.contexts,org.eclipse.e4.core.di,org.eclips
+ e.e4.ui.model.workbench,org.apache.log4j,org.talend.commons.runtime,o
+ rg.talend.core.runtime,org.eclipse.e4.ui.workbench,javax.inject,org.e
+ clipse.m2e.core
+Bundle-ManifestVersion: 2
+Bundle-Vendor: .Talend SA.
+Eclipse-LazyStart: true
+Export-Package: org.talend.rcp,org.talend.rcp.intro,org.talend.rcp.int
+ ro.linksbar,org.talend.rcp.intro.starting,org.talend.rcp.perspective
+Bundle-Name: -Talend Open Studio -
+Bundle-Version: 8.0.1.20211105_1205
+Bundle-Localization: plugin
+Bundle-Activator: org.talend.rcp.Activator
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

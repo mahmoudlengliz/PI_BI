@@ -1,0 +1,51 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row6 == null ? -1 : row6.skevent">
+  <variables name="row7.time_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row7.zone_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row7.source_sensor" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.vitesse_kmh" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="row7.temps_trajet_min" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="row7.congestion_index" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="row2.time_id" value="0" talendType="id_Integer"/>
+  <variables name="row2.date_id" value="0" talendType="id_Integer"/>
+  <variables name="row2.mois_id" value="0" talendType="id_Integer"/>
+  <variables name="row2.BK_date" value="null" talendType="id_Date"/>
+  <variables name="row2.heure" value="null" talendType="id_String"/>
+  <variables name="row2.annee" value="0" talendType="id_Integer"/>
+  <variables name="row2.mois" value="0" talendType="id_Integer"/>
+  <variables name="row2.jour" value="0" talendType="id_Integer"/>
+  <variables name="row2.jour_semaine" value="0" talendType="id_Integer"/>
+  <variables name="row2.est_weekend" value="false" talendType="id_Boolean"/>
+  <variables name="row2.periode" value="null" talendType="id_String"/>
+  <variables name="row3.zone_id" value="0" talendType="id_Integer"/>
+  <variables name="row3.zone_nom" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.ville" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.region" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.pays" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.code_insee_commune" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.lat_centre" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.lon_centre" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.nomsensor" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.sksensor" value="0" talendType="id_Integer"/>
+  <variables name="row5.fkzone_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row5.station_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.pluie_forte" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row5.pluie_intense" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row5.mois_gel" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row5.risque_verglas" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row5.risque_neige" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row5.categories_meteo" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.fkmois_id" value="0" talendType="id_Integer"/>
+  <variables name="row5.skmeteo" value="0" talendType="id_Integer"/>
+  <variables name="row6.a_evenement" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.type_evenement" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.nom_evenement" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.impact_trafic" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.type_vacances" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.en_vacances" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.zone_scolaire" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.jours_feries_noms" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.fkzone_id" value="0" talendType="id_Integer"/>
+  <variables name="row6.fkmois_id" value="0" talendType="id_Integer"/>
+  <variables name="row6.skevent" value="0" talendType="id_Integer"/>
+</expression:EMFExpression>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jboss.marshalling</groupId>
+  <artifactId>jboss-marshalling</artifactId>
+  <versioning>
+    <release>2.0.12.Final</release>
+    <versions>
+      <version>2.0.12.Final</version>
+    </versions>
+    <lastUpdated>20211109164804</lastUpdated>
+  </versioning>
+</metadata>

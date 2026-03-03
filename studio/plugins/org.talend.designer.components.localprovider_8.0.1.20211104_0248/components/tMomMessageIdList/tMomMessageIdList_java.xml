@@ -1,0 +1,98 @@
+<COMPONENT>
+
+  <HEADER
+    PLATEFORM="ALL"
+    SERIAL=""
+    VERSION="0.102"
+    STATUS="ALPHA"
+
+    COMPATIBILITY="ALL"
+    AUTHOR="Talend"
+    RELEASE_DATE="20050320A"
+    STARTABLE="true"
+    LOG4J_ENABLED="true"
+  >
+    <SIGNATURE />
+  </HEADER>
+
+  <FAMILIES>
+    <FAMILY>Internet/MOM and JMS</FAMILY>
+  </FAMILIES>
+
+  <DOCUMENTATION>
+    <URL />
+  </DOCUMENTATION>
+
+  <CONNECTORS>
+    <CONNECTOR CTYPE="FLOW" MAX_OUTPUT="0" MAX_INPUT="0" />
+    <CONNECTOR CTYPE="ITERATE" MAX_INPUT="1" />
+    <CONNECTOR CTYPE="SUBJOB_OK" MAX_INPUT="1" />
+    <CONNECTOR CTYPE="SUBJOB_ERROR" MAX_INPUT="1" />
+    <CONNECTOR CTYPE="COMPONENT_OK" />
+    <CONNECTOR CTYPE="COMPONENT_ERROR" />
+    <CONNECTOR CTYPE="RUN_IF" />
+  </CONNECTORS>
+
+  <PARAMETERS>
+  
+  	<PARAMETER NAME="USE_CONNECTION" FIELD="CHECK" NUM_ROW="1">
+      <DEFAULT>false</DEFAULT>
+    </PARAMETER>
+    
+    <PARAMETER NAME="CONNECTION" FIELD="COMPONENT_LIST" REQUIRED="true" FILTER="tMomConnection" NUM_ROW="1"
+        SHOW_IF="USE_CONNECTION == 'true'" DYNAMIC_SETTINGS="true" />
+        
+    <PARAMETER NAME="NOTE_CUSTOMER" FIELD="LABEL" NUM_ROW="2" COLOR="255;0;0" 
+		SHOW_IF="((USE_CONNECTION == 'true') AND (#LINK@NODE.CONNECTION.SERVER != 'WEBSPHERE'))">
+		<DEFAULT>Connection server type is incorrect!
+This component only support Websphere MQ currently!
+		</DEFAULT>
+	</PARAMETER>
+
+    <PARAMETER NAME="SERVER" FIELD="CLOSED_LIST" NUM_ROW="20" SHOW_IF="(USE_CONNECTION == 'false')">
+      <ITEMS DEFAULT="WEBSPHERE">
+        <ITEM NAME="WEBSPHERE" VALUE="WebSphere" />
+      </ITEMS>
+    </PARAMETER>
+
+    <PARAMETER NAME="SERVERADDRESS" FIELD="TEXT" NUM_ROW="20" SHOW_IF="(USE_CONNECTION == 'false')">
+      <DEFAULT>"localhost"</DEFAULT>
+    </PARAMETER>
+
+    <PARAMETER NAME="SERVERPORT" FIELD="TEXT" NUM_ROW="20" SHOW_IF="(USE_CONNECTION == 'false')">
+      <DEFAULT IF="(SERVER == 'WEBSPHERE')">"1414"</DEFAULT>
+    </PARAMETER>
+
+    <PARAMETER NAME="CHANNEL" FIELD="TEXT" NUM_ROW="30"
+        SHOW_IF="(USE_CONNECTION == 'false') AND (SERVER == 'WEBSPHERE')">
+      <DEFAULT>"DC.SVRCONN"</DEFAULT>
+    </PARAMETER>
+
+    <PARAMETER NAME="QM" FIELD="TEXT" NUM_ROW="50"
+         SHOW_IF="(USE_CONNECTION == 'false') AND (SERVER == 'WEBSPHERE')">
+      <DEFAULT>""</DEFAULT>
+    </PARAMETER>
+
+    <PARAMETER NAME="QUEUE" FIELD="TEXT" NUM_ROW="50"
+        SHOW_IF="(((USE_CONNECTION == 'true') and (#LINK@NODE.CONNECTION.SERVER== 'WEBSPHERE')) OR ((USE_CONNECTION == 'false') and (SERVER == 'WEBSPHERE')))">
+      <DEFAULT>""</DEFAULT>
+    </PARAMETER>
+
+  </PARAMETERS>
+
+  <CODEGENERATION>
+   <IMPORTS>
+       <IMPORT NAME="MQ" MODULE="com.ibm.mq-8.0.0.9.jar" MVN="mvn:com.ibm.mq/com.ibm.mq/8.0.0.9"  REQUIRED_IF="(USE_CONNECTION=='false' AND SERVER == 'WEBSPHERE')" />
+       <IMPORT NAME="WEBSPHERE MQ LIB" MODULE="com.ibm.mq.allclient-8.0.0.9.jar" MVN="mvn:com.ibm.mq/com.ibm.mq.allclient/8.0.0.9"  REQUIRED_IF="(USE_CONNECTION=='false' AND SERVER == 'WEBSPHERE')" />
+       <IMPORT NAME="MQJMS" MODULE="com.ibm.mqjms-8.0.0.9.jar" MVN="mvn:com.ibm.mq/com.ibm.mqjms/8.0.0.9"  REQUIRED_IF="(USE_CONNECTION=='false' AND SERVER == 'WEBSPHERE')" />
+        <IMPORT NAME="WEBSPHERE CONNECTOR" MODULE="websphere-connector-1_5.jar" MVN="mvn:org.talend.libraries/websphere-connector-1_5/6.0.0"  REQUIRED_IF="(USE_CONNECTION=='false' AND SERVER == 'WEBSPHERE')" />
+       <IMPORT NAME="Java Message Service" MODULE="jms.jar" MVN="mvn:org.talend.libraries/jms/6.0.0"  UrlPath="platform:/plugin/org.talend.libraries.esb.ext/lib/jms.jar" REQUIRED_IF="(USE_CONNECTION=='false' AND SERVER == 'WEBSPHERE')" />
+     </IMPORTS>
+  </CODEGENERATION>
+
+  <RETURNS>
+  	<RETURN NAME="CURRENT_MESSAGE_ID" TYPE="id_String" AVAILABILITY="FLOW" />
+    <RETURN NAME="NB_LINE" TYPE="id_Integer" AVAILABILITY="AFTER" />
+  </RETURNS>
+
+</COMPONENT>

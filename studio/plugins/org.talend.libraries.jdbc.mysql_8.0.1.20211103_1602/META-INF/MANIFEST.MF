@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.jdbc.mysql;singleton:=true
+Built-By: 
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: .Talend SA.
+Export-Package: com.mysql.jdbc,com.mysql.jdbc.configs,com.mysql.jdbc.e
+ xceptions,com.mysql.jdbc.exceptions.jdbc4,com.mysql.jdbc.integration.
+ c3p0,com.mysql.jdbc.integration.jboss,com.mysql.jdbc.jdbc2.optional,c
+ om.mysql.jdbc.log,com.mysql.jdbc.profiler,com.mysql.jdbc.util,org.gjt
+ .mm.mysql
+Bundle-Name: Mysql Plug-in
+Bundle-Version: 8.0.1.20211103_1602
+Bundle-ClassPath: lib/mysql-connector-java-5.1.30-bin.jar,.
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

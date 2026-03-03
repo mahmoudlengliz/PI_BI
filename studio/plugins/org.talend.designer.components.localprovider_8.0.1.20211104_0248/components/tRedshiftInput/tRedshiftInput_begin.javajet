@@ -1,0 +1,107 @@
+<%@ jet 
+imports="
+		org.talend.core.model.process.INode 
+		org.talend.core.model.process.ElementParameterParser 
+		org.talend.core.model.metadata.IMetadataTable 
+		org.talend.core.model.metadata.IMetadataColumn
+		org.talend.designer.codegen.config.CodeGeneratorArgument
+		org.talend.core.model.process.IConnection
+		org.talend.core.model.process.IConnectionCategory
+		org.talend.core.model.metadata.types.JavaTypesManager
+		java.util.Map
+		java.util.List
+" 
+%>
+	<%@ include file="../templates/DB/Input/HelpClass.javajet"%>
+<%
+
+	class DBInputBeginUtil extends DefaultDBInputUtil{
+
+		public void setURL(INode node) {
+			
+			boolean useLogFile= "true".equals(ElementParameterParser.getValue(node, "__USE_LOG_FILE__"));
+			String logLevel= ElementParameterParser.getValue(node, "__LOG_LEVEL__");
+			String logFile= ElementParameterParser.getValue(node, "__LOG_FILE__");
+			String jdbcUrl = ElementParameterParser.getValue(node, "__JDBC_URL__");
+			
+		if(!logLevel.equals("0")){	
+			if (useLogFile) {
+%>
+				java.io.Writer output_<%=cid %> = new java.io.FileWriter(<%= logFile %>, true);
+				java.io.PrintWriter logWriter_<%=cid %> = new java.io.PrintWriter(output_<%=cid %>,true);
+			    globalMap.put("fileLogWriter_<%=cid %>", logWriter_<%=cid %>);
+			    java.sql.DriverManager.setLogWriter(logWriter_<%=cid %>);
+			<%
+			}
+%>
+
+		<%}%>
+		
+            StringBuilder sbuilder_<%=cid%> = new StringBuilder();
+            sbuilder_<%=cid%>.append("jdbc:redshift:");
+<%
+            if ("SSO".equals(jdbcUrl)){
+%>
+                sbuilder_<%=cid%>.append("iam:");
+<%
+            }
+%>
+            sbuilder_<%=cid%>.append("//")
+                             .append(<%=dbhost%>)
+                             .append(":")
+                             .append(<%=dbport%>)
+                             .append("/")
+                             .append(<%=dbname%>)
+                             .append("?loglevel=")
+                             .append(<%=logLevel%>);
+<%
+            if(dbproperties != null && !"\"\"".equals(dbproperties) && !"".equals(dbproperties)) {
+%>
+                sbuilder_<%=cid%>.append("&").append(<%=dbproperties%>);
+<%
+            }
+%>
+            String url_<%=cid%> = sbuilder_<%=cid%>.toString();
+<%
+		}
+		
+		public String getDirverClassName(INode node){
+			return "com.amazon.redshift.jdbc42.Driver";
+		}
+		
+		public void createConnection(INode node) {
+			String jdbcUrl = ElementParameterParser.getValue(node, "__JDBC_URL__");
+			super.createConnection(node);
+			String useCursor= ElementParameterParser.getValue(node, "__USE_CURSOR__");
+			if(("true").equals(useCursor)) {
+				log4jCodeGenerateUtil.autoCommit(node,false);
+			}
+		}
+		
+		public void createStatement(INode node) {
+			super.createStatement(node);
+			String useCursor= ElementParameterParser.getValue(node, "__USE_CURSOR__");
+			String cursorSize= ElementParameterParser.getValue(node, "__CURSOR_SIZE__");
+            if(("true").equals(useCursor)) {
+%>
+                stmt_<%=cid %>.setFetchSize(<%=cursorSize %>);
+<%
+            }
+		}
+
+    	public String getQueryString(INode node) {
+    			String trackerString = "\""+ org.talend.core.utils.TrackerUtil.getRedshiftTracker() + "\\n\" + ";
+    			return trackerString + "(" + super.getQueryString(node) + ")";
+    	}
+		
+		//-----------according schema type to generate ResultSet
+	    
+	    //---------end according schema type to generate ResultSet
+	}//end class
+	
+	dbInputBeginUtil = new DBInputBeginUtil();
+%>
+    
+	<%@ include file="../templates/DB/Input/AbstractDBInputBegin.javajet"%>
+
+

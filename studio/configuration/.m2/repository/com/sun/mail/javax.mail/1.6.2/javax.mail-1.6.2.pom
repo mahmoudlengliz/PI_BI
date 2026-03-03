@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.sun.mail</groupId>
+	<artifactId>javax.mail</artifactId>
+	<version>1.6.2</version>
+	<packaging>jar</packaging>
+	<name>Talend Third party library : javax.mail-1.6.2.jar</name>
+	<description>JavaMail API</description>
+	<url>https://docs.oracle.com/javaee/7/api/javax/mail/package-summary.html</url>
+	<licenses> 
+		<license> 
+			<name>GPL-2.0</name>
+			<url>https://www.talendforge.org/modules/licenses/GPL_v2.html</url>
+		</license>
+	</licenses>
+</project>

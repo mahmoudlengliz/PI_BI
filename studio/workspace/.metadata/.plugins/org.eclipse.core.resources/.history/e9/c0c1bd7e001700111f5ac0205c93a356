@@ -1,0 +1,49 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="">
+  <variables name="row1.event_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.time_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.line_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.stop_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.heure_theorique" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.heure_reelle" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.retard_s" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.annule" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.charge_estimee" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.vehicle_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.time_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.date_id" value="0" talendType="id_Integer"/>
+  <variables name="row2.mois_id" value="0" talendType="id_Integer"/>
+  <variables name="row2.BK_date" value="null" talendType="id_Date"/>
+  <variables name="row2.heure" value="null" talendType="id_String"/>
+  <variables name="row2.annee" value="0" talendType="id_Integer"/>
+  <variables name="row2.mois" value="0" talendType="id_Integer"/>
+  <variables name="row2.jour" value="0" talendType="id_Integer"/>
+  <variables name="row2.jour_semaine" value="0" talendType="id_Integer"/>
+  <variables name="row2.est_weekend" value="false" talendType="id_Boolean"/>
+  <variables name="row2.periode" value="null" talendType="id_String"/>
+  <variables name="row3.vehicle_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.mode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.fuel_type" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.year_model" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.operateur" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.eco_label" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.FK_line_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.categorie_capacite" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.SK_vehicules" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row4.stop_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.stop_nom" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.lat" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="row4.lon" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="row4.ville" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.accessibilite" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.opened_date" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row4.zone_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row4.SK_arret" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row5.line_id" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row5.line_nom" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.mode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.operateur" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.couleur" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.actif" value="null" talendType="id_Boolean" nullable="true"/>
+  <variables name="row5.created_at" value="null" talendType="id_Date" nullable="true"/>
+</expression:EMFExpression>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<feature id="org.talend.esb.tooling.ws.consumer.feature" label="Talend Designer Tooling Web Service Consumer Feature" version="8.0.1.20211109_1127"> 
+  <description url="http://www.example.com/description">[Enter Feature Description here.]</description>  
+  <copyright url="http://www.example.com/copyright">[Enter Copyright Description here.]</copyright>  
+  <license url="http://www.example.com/license">[Enter License Description here.]</license>  
+  <!-- org.talend.libraries.esb -->  
+  <requires>
+    <import plugin="javax.wsdl" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.commons.lang" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.commons.logging" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.log4j" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.xml.resolver" version="0.0.0" match="greaterOrEqual"/>
+  </requires>
+  <plugin id="org.talend.designer.esb.components.rs.consumer" download-size="33" install-size="106" version="8.0.1.20211109_1127"/>
+  <plugin id="org.talend.designer.esb.components.ws.consumer" download-size="108" install-size="270" version="8.0.1.20211109_1127"/>
+  <plugin id="org.talend.designer.esb.routines" download-size="10" install-size="14" version="8.0.1.20211103_1602"/>
+  <plugin id="org.talend.libraries.esb" download-size="54923" install-size="61771" version="8.0.1.20211103_1602"/>
+</feature>

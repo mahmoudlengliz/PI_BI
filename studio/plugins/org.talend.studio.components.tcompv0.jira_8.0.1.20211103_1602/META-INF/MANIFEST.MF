@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.talend.studio.components.tcompv0.jira
+Bundle-SymbolicName: org.talend.studio.components.tcompv0.jira;singlet
+ on:=true
+Built-By: 
+Require-Bundle: org.talend.sdk.component.studio-integration,org.talend
+ .core
+Bundle-ManifestVersion: 2
+Bundle-Vendor: .Talend SA.
+Import-Package: org.eclipse.core.runtime,org.slf4j
+Eclipse-LazyStart: true
+Bundle-Name: JIRA Plug-in
+Bundle-Version: 8.0.1.20211103_1602
+Bundle-Localization: plugin
+Bundle-ClassPath: .
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

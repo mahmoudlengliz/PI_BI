@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.libraries.apache.http
+Built-By: 
+Require-Bundle: org.apache.commons.logging,org.apache.commons.codec
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Export-Package: org.apache.http,org.apache.http.annotation,org.apache.
+ http.auth,org.apache.http.auth.params,org.apache.http.client,org.apac
+ he.http.client.entity,org.apache.http.client.fluent,org.apache.http.c
+ lient.methods,org.apache.http.client.params,org.apache.http.client.pr
+ otocol,org.apache.http.client.utils,org.apache.http.concurrent,org.ap
+ ache.http.conn,org.apache.http.conn.params,org.apache.http.conn.routi
+ ng,org.apache.http.conn.scheme,org.apache.http.conn.ssl,org.apache.ht
+ tp.conn.util,org.apache.http.cookie,org.apache.http.cookie.params,org
+ .apache.http.entity,org.apache.http.impl,org.apache.http.impl.auth,or
+ g.apache.http.impl.client,org.apache.http.impl.conn,org.apache.http.i
+ mpl.conn.tsccm,org.apache.http.impl.cookie,org.apache.http.impl.entit
+ y,org.apache.http.impl.io,org.apache.http.impl.pool,org.apache.http.i
+ o,org.apache.http.message,org.apache.http.params,org.apache.http.pool
+ ,org.apache.http.protocol,org.apache.http.util
+Bundle-Name: Http
+Bundle-Version: 8.0.1.20211103_1602
+Bundle-ClassPath: ./,lib/httpclient-4.5.13.jar,lib/httpcore-4.4.6.jar,
+ lib/fluent-hc-4.2.6.jar
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

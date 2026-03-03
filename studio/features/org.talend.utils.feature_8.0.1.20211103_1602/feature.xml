@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<feature id="org.talend.utils.feature" label="Utils_feature Feature" version="8.0.1.20211103_1602"> 
+  <description url="http://www.example.com/description">This feature contains the Talend utilities plugin and its dependencies.</description>  
+  <copyright url="http://www.example.com/copyright">[Enter Copyright Description here.]</copyright>  
+  <license url="http://www.example.com/license">[Enter License Description here.]</license>  
+  <requires>
+    <import plugin="org.bouncycastle.bcprov" version="1.69.0" match="greaterOrEqual"/>
+    <import plugin="com.cedarsoftware.json-io" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="com.fasterxml.jackson.core.jackson-annotations" version="2.9.0" match="greaterOrEqual"/>
+    <import plugin="com.fasterxml.jackson.core.jackson-core" version="2.9.8" match="greaterOrEqual"/>
+    <import plugin="com.thoughtworks.paranamer" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="jackson-core-asl" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="jackson-mapper-asl" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.commons.codec" version="1.14.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.commons.compress" version="1.10.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.commons.lang" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.commons.lang3" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.log4j" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.apache.servicemix.bundles.avro" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.junit" version="4.13.2" match="greaterOrEqual"/>
+    <import plugin="org.slf4j.api" version="0.0.0" match="greaterOrEqual"/>
+    <import plugin="org.slf4j.binding.log4j12" version="0.0.0" match="greaterOrEqual"/>
+  </requires>  
+  <plugin id="org.talend.daikon" download-size="302" install-size="604" version="0.31.12" unpack="false"/>
+  <plugin id="org.talend.daikon.exception" download-size="14" install-size="27" version="0.31.12" unpack="false"/>
+  <plugin id="org.talend.daikon.crypto.utils" download-size="26" install-size="47" version="0.31.12" unpack="false"/>
+  <plugin id="org.talend.studio.studio-utils" download-size="147" install-size="275" version="1.0.6" unpack="false"/>
+  <plugin id="org.talend.utils" download-size="71" install-size="130" version="8.0.1.20211103_1602" unpack="false"/>
+  <plugin id="org.talend.platform.logging" download-size="5" install-size="9" version="8.0.1.20211103_1602" unpack="false"/>
+</feature>

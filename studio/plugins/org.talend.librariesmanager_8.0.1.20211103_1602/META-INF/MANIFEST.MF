@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.librariesmanager;singleton:=true
+Built-By: 
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.emf.ecore.xmi,org
+ .eclipse.core.expressions,org.apache.commons.lang,org.eclipse.osgi.se
+ rvices,org.eclipse.m2e.core,org.ops4j.pax.url.mvn,org.talend.librarie
+ s.apache,org.talend.libraries.dom4j-jaxen,org.talend.libraries.apache
+ .http,org.talend.libraries.jackson,org.talend.core.runtime;visibility
+ :=reexport,org.talend.metadata.managment,org.apache.log4j,org.talend.
+ designer.maven,org.talend.components.api,org.talend.designer.maven.ae
+ ther,javax.xml.bind,org.talend.model
+Bundle-ManifestVersion: 2
+Bundle-Vendor: .Talend SA.
+Import-Package: org.eclipse.emf.ecore.xmi.impl,org.talend.osgi.hook.no
+ tification
+Eclipse-LazyStart: true
+Export-Package: org.jboss.marshalling,org.talend.librariesmanager.emf.
+ librariesindex,org.talend.librariesmanager.librarydata,org.talend.lib
+ rariesmanager.maven,org.talend.librariesmanager.model,org.talend.libr
+ ariesmanager.model.service,org.talend.librariesmanager.nexus.utils,or
+ g.talend.librariesmanager.prefs,routines,routines.system
+Bundle-Name: Libraries Manager Plug-in
+Bundle-Version: 8.0.1.20211103_1602
+Bundle-Localization: plugin
+Bundle-ClassPath: lib/jboss-marshalling-2.0.12.Final.jar,.
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+

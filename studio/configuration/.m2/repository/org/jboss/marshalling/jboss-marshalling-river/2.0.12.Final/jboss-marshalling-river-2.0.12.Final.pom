@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.jboss.marshalling</groupId>
+    <artifactId>jboss-marshalling-river</artifactId>
+    <version>2.0.12.Final</version>
+    <packaging>jar</packaging>
+    <name>Talend Third party library : jboss-marshalling-river-2.0.12.Final.jar</name>
+    <description>Library for tMap serialization</description>
+    <url>https://jbossmarshalling.jboss.org/</url>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>http://www.talendforge.org/modules/licenses/APACHE_v2.txt</url>
+        </license>
+    </licenses>
+</project>
